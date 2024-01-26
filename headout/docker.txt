@@ -1,0 +1,2 @@
+docker build -t headout-django:1.0 .
+docker run -p 8080:8080 --memory=1500m --cpus=2.0 headout-django:1.0
